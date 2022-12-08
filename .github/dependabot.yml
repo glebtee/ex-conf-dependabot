@@ -1,0 +1,10 @@
+version: 2
+updates:
+  # enable version updates for python
+  - package-ecosystem: "pip"
+    directory: /
+    schedule:
+      interval: "weekly"
+
+  # enable version updates for docker 
+  - package-ecosystem: "docker"
